@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>APPLICATION FORM</title>
+<style type = "text/css">
+body{color:green;
+     font-weight:bolder;
+      background-position:scroll;}
+
+#info{color:red;}
+
+h1{color:red;
+   border-bottom:1px solid blue;
+   text-align:center;
+   background-color:blue;
+   border-style:inset;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;}
+p{color:brown;
+  font-size:20PX;
+  font-style:italic;
+  font-family:arial;
+  background-color:aqua;
+  padding:20px;
+  border-color:black;
+  margin:20px;
+  border-style:double;
+   border-radius:10px 20px 10px 20px;}
+form{color:red;}
+input{color:blue}
+legend{color:green;}
+</style>
+
+</head>
+<body>
+<h1>STUDENT APPLICTION FORM</h1>
+<b><p class = "para1">Please fill the application form below if you want to attend our institution.Thank you.</p><br>
+
+<!--box for text-->
+
+<div id="info">
+<u>Name</u>:
+<form action = "" method = ""> 
+<input type = "text" name = "">
+</form>
+<u>Gmail</u>:
+<form action = "" method = ""> 
+<input type = "mail" name = "">
+</form> 
+</div>
+
+<!--field box  and legend-->
+
+<form>
+<fieldset>
+<legend>Student information:</legend>
+<u>firstname</u>:
+<u><input type = "text">
+lastname</u>:
+<input type = "text">
+<u>joining date</u>:
+<input type = "date" name = "day">
+</fieldset>
+</form>
+
+
+<!--date and number box-->
+
+<form>
+<u>Date of Birth</u>:
+<input type = "date">
+</form>
+
+<!--radio button for buttons-->
+
+<u>Completed EAPCET</u>:
+<form action = "" method = "">
+yes:
+<input type = "radio" name = "yesorno" value = "">
+no:
+<input type = "radio" name = "yesorno" value = "">
+</form> 
+
+<u>Languages</u>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+
+<u>Native Language</u>
+<form>
+  <input type="radio" id="ENGLISH" name="fav_language" value="ENGLISH">
+  <label for="ENGLISH">ENGLISH</label><br>
+  <input type="radio" id="TELUGU" name="fav_language" value="TELUGU">
+  <label for="TELUGU">TELUGU</label><br>
+  <input type="radio" id="HINDI" name="fav_language" value="HINDI">
+  <label for="HINDI">HINDI</label>
+</form>
+
+<!--number input box-->
+
+<u>EAPCET rank</u>:
+<form action = "" method = "">
+<input type = "number" min = "100" max = "15000">
+</form>
+
+<!--check box-->
+
+<u>Are you Intrested in</u>:
+<form action = "" method = "">
+<input type = "checkbox" name= "">B.TECH<br>
+<input type = "checkbox" name= "">B.com<br>
+<input type = "checkbox" name= "">MS<br>
+<input type = "checkbox" name= "">M.S.C<br>
+<input type = "checkbox" name= "">M.tech<br>
+</form>
+
+<!--drop down list-->
+
+<u>Field of Study</u>:
+<form action= "" method= "">
+<select>
+<option value = "michigon">select field of study</option>
+<option value = "michigon">ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+<option value = "michigon">COMPUTER SCINECE AND ENGINEERING</option>
+<option value = "michigon">MECHANICAL ENGINEERING</option>
+<option value = "michigon">CIVIL ENGINEERING</option>
+<option value = "michigon">ROBOTICS ENGINEERING</option>
+<option value = "michigon">other</option>
+</select></form>
+
+<!--file-->
+
+<u>12th Mark Sheet</u>
+<form action="" method="">
+<input type="file">
+</form>
+
+<form action = "" method = "">
+<input type = "submit" value = "submit">
+</form>
+
+<script type="text/javascript">
+window.alert("submited");
+</script>
+
+<!--form id="formfacility">
+    <input type="text" id="MyName">
+    <button type="button" id="btnCanxFormFacility">Cancel</button>
+    <button type="submit" id="btnSubmitForm">Submit</button>
+</form-->
+
+</body>
+</html>
